@@ -1,0 +1,110 @@
+@import url();
+
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+   
+    background-image: url('3 Photoshop@0.75x.jpg');
+    
+   padding: 500px 1100px;
+
+
+}
+
+h4{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    text-shadow: 10px 10px 25px rgba(0,0,0, 2.4) ;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+
+}
+
+.container{
+    width: 600px;
+    place-items: center;
+    background-color:transparent;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px 20px rgba(255,255,255, 3.4);
+   
+
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+form input{
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #6665ee;
+    
+
+}
+
+form input.box{
+
+    width: 600px;
+    height: 70px;
+    font-size: 4.2rem;
+    padding: 0 10px;
+    background-color: inherit;
+    color: #fff;
+    text-shadow: 10px 10px 25px rgba(0,0,0, 2.4) ;
+   
+}
+
+form input.button{
+    font-size: 3rem;
+
+    padding: 12px 20px;
+    background-color: #6665ee;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h5{
+    background-color: #FFD4CD;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+.feedback{
+    display: none;
+
+}
+
+.show{
+    display: block;
+}
+
+.message-content{
+    text-shadow:10px 10px 25px rgba(0,0,0, 2.4) ;
+    color: #4BB30A;
+    
+}
